@@ -4004,7 +4004,7 @@ section {
     color: black; }
   #agenda .timings .row {
     border-bottom: 1px dashed #808285;
-    width: 26%;
+    width: 80%;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
