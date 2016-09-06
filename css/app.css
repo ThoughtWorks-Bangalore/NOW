@@ -4125,5 +4125,12 @@ a.link {
   color:#6A2569 !important;
 }
 
-  
-      
+#agenda .timings .row .title {
+    color: #ffb500;
+    font-size: 25px;
+    font-style: italic;
+}
+
+#agenda .timings .row .speaker_bio {
+    font-size: 18px;
+}
