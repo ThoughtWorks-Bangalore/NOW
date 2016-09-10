@@ -4599,9 +4599,7 @@ a.link {
 .speaker-details .speaker-desc {
     font-size: 20px;
     padding-top: 20px;
-    font-family: inherit;
     text-align: justify;
-    font-style: italic;
 }
 .speaker-details .speaker-desc p.desc {
     line-height: 1.3;
