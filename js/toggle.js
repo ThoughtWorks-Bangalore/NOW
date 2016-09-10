@@ -20,5 +20,9 @@ function toggle() {
     });
 }
 $(function() {
+    var ele = $(location.hash).find('.details');
+    if (ele.hasClass('hidden')) {
+        ele.removeClass('hidden');
+    }
     toggle();
 });
