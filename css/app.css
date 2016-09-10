@@ -4077,8 +4077,7 @@ section {
 }
 #intro {
     color: #222222;
-    background: white url(../img/dark-bg.jpg);
-    background: url("../img/banner.JPG");
+    background: url("../img/banner-ep2.JPG");
     background-size: cover;
     border-radius: 0;
 }
@@ -4094,7 +4093,7 @@ section {
     }
 }
 #intro .row {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.45);
     margin-bottom: 0;
     padding: 1em 0;
 }
