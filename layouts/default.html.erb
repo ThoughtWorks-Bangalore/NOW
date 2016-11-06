@@ -1,0 +1,41 @@
+<% render '_layout', title: start_date.strftime("%b %Y") do %>
+    <section id="intro" class="feature">
+        <div class="row logo">
+            <a href="http://www.thoughtworks.com" target="_blank"
+               onclick="ga('send', 'event', 'tw', 'tw')" class="tw-logo">
+                <img src="./img/tw-logo.png" alt="ThoughtWorks" align="center" />
+            </a>
+            <div class="large-12 columns">
+                <h1>Network Of Women</h1>
+
+                <% if @item[:subheader] %>
+                    <h3 class="subheader"><%= @item[:subheader] %></h3>
+                <% end %>
+                <% if @item[:subnote] %>
+                    <div class="subnote"><%= @item[:subnote] %></div>
+                <% end %>
+                <br/>
+                <br/>
+                <h5><%= @item[:edition] %><sup><%= @item[:edition].ordinal %></sup> Episode</h5>
+                <p style="text-align: center;">-------------------------------</p>
+                <h5 style=""><%= start_date.strftime("%b %d, %Y") %></h5>
+                <h5>Bangalore</h5>
+            </div>
+        </div>
+    </section>
+
+    <%= render '_about_section' %>
+
+    <%= render '_agenda_section' %>
+
+    <%= render '_participate_section' %>
+
+    <%= render '_location_section' %>
+
+    <%= render '_archive_section' %>
+
+    <%= render '_header_section' %>
+
+    <%= render '_footer_section' %>
+
+<% end %>

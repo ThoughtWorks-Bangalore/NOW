@@ -1,0 +1,10 @@
+<section id="participate" class="feature">
+    <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+        <h2>Participate</h2>
+    </div>
+        <% if @item[:participate] %>
+        <div style="left:20%" class="large-12 columns social form-container" data-anchor-target="#_participant">
+            <iframe src="<%= @item[:participate]%>" width="760" height="1150" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+        <% end %>
+</section>
