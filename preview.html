@@ -6,20 +6,12 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Converge Gurgaon - <%= title %></title>
+    <title>Network Of Women- Preview</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="css/icons/fontello.css" />
-    <!--[if IE 7]>
-        <link rel="stylesheet" href="css/icons/fontello-ie7.css" />
-    <![endif] -->
-
+    <link rel="stylesheet" href="css/preview.css" />
     <script src="js/custom.modernizr.js"></script>
   </head>
   <body>
@@ -27,18 +19,28 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" rel="nofollow">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <%= yield %>
+    <section id="about" class="feature">
+      <h2 class="header">Network Of Women</h2>
+
+      <div class="content">
+        <div class="content-inner">
+          <p>About Network Of Women</p>
+        </div>
+      </div>
+    </section>
 
     <!-- Google Analytics -->
     <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-63362668-3']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 
-  ga('create', 'UA-51286639-1', 'twggn.github.io');
-  ga('send', 'pageview');
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 
-</script>
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </body>
 </html>
