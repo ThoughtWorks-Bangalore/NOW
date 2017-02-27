@@ -1,6 +1,4 @@
-# Geek Night Bengaluru
-
-An open forum for geeks to connect, discuss &amp; learn latest ideas, technologies and trends in software development
+# Network Of Women
 
 ## Quick Start & Auto Deployment
 
