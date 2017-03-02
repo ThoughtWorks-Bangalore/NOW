@@ -22,11 +22,26 @@
                 <h5>Bangalore</h5>
             </div>
         </div>
+
+      <div class="row actions">
+            <div class="large-5 columns participate">
+                <% if @item[:participate] %>
+                    <a href="<%= @item[:participate] %>"  rel="nofollow"
+                       onclick="ga('send', 'event', 'participate', 'participate')">
+                        <h4>Participate</h4>
+                    </a>
+                <% else %>
+                    <a href="javascript:void(0)">
+                        <h4><strike>Participate</strike></h4>
+                    </a>
+                <% end %>
+          </div>
+        </div>
     </section>
 
     <%= render '_about_section' %>
 
-    <%= render '_agenda_section' %>
+    <!%= render '_agenda_section' %>
 
     <%= render '_participate_section' %>
 

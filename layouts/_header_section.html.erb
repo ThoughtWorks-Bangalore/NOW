@@ -12,9 +12,14 @@
                     </li>
                 </ul>
                 <ul class="right">
-                    <% if @item[:participate] %>
-                    <li><a href="#participate">Participate</a></li>
+                  <li>
+                    <% if latest[:participate] %>
+                        <a href="<%= latest[:participate] %>" target="_blank" rel="nofollow"
+                           onclick="ga('send', 'event', 'participate', 'participate')">
+                          Participate
+                        </a>
                     <% end %>
+                  </li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#agenda">Agenda</a></li>
                     <li><a href="#location">Location</a></li>
