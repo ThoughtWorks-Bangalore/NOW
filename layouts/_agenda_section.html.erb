@@ -38,6 +38,14 @@
                 <% if agenda[:description] %>
                   <p class="speaker_description"><small> <%= agenda[:description] %></small></p>
                 <% end %>
+              <% if agenda[:youtube_link] %>
+                  <br>
+                  <br>
+                  <iframe align="center" src="<%= agenda[:youtube_link]%>"
+                          width="560" height="315" frameborder="0" allowfullscreen></iframe>
+                  <br>
+                  <br>
+              <% end %>
             </div>
           </div>
         <% end %>
