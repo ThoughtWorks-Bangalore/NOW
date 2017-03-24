@@ -3640,8 +3640,9 @@ button, .button {
 
 #intro {
   color: white;
-  background: #6a2569 url(../img/now.jpg);
-  background-repeat: round;
+  background: #6a2569 url(../img/now-web-banner.jpg);
+  background-size: 2014px 1024px;
+  background-repeat: repeat;
   border-radius: 0; }
   #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
     color: white; }
@@ -3703,6 +3704,8 @@ button, .button {
   #intro .actions {
     padding-top: 1em; }
     #intro .actions .participate {
+      margin: 0 auto;
+      float: none;
       -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
       -moz-animation: rotateInUpLeft 1s 1.5s ease both;
       -ms-animation: rotateInUpLeft 1s 1.5s ease both;
@@ -3753,8 +3756,9 @@ button, .button {
 
 #agenda {
   color: white;
-  background: #6a2569 url(../img/now.jpg);
-  background-repeat: round;
+  background: #6a2569 url(../img/now-web-banner.jpg);
+  background-size: 2014px 1024px;
+  background-repeat: repeat;
   background: #6a2569; }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: white; }
@@ -3831,8 +3835,9 @@ button, .button {
 
 #location {
   color: white;
-  background: #222222 url(../img/now.jpg);
-  background-repeat: round;
+  background: #222222 url(../img/now-web-banner.jpg);
+  background-size: 2014px 1024px;
+  background-repeat: repeat;
   background-image: url(../img/dark-bg.jpg); }
   #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
     color: white; }
@@ -3857,8 +3862,9 @@ button, .button {
 
 #about {
   color: white;
-  background: #222222 url(../img/now.jpg);
-  background-repeat: round;
+  background: #222222 url(../img/now-web-banner.jpg);
+  background-size: 2014px 1024px;
+  background-repeat: repeat;
   background-image: url(../img/dark-bg.jpg); }
   #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
     color: white; }
@@ -3919,10 +3925,100 @@ button, .button {
       margin: 0.25em 0;
       text-align: right; }
 
+#participate {
+  color: white;
+  background-color: #b5b935; }
+  #participate .feature {
+    padding: 0;
+    position: relative; }
+
+#archivecontent {
+  color: white;
+  background: #6a2569 url(../img/now-web-banner.jpg);
+  background-size: 2014px 1024px;
+  background-repeat: repeat;
+  background: #6a2569; }
+  #archivecontent h1, #archivecontent h2, #archivecontent h3, #archivecontent #archive .grid a .day, #archive .grid a #archivecontent .day, #archivecontent h4, #archivecontent h5, #archivecontent h6, #archivecontent #archive .grid a .month, #archive .grid a #archivecontent .month, #archivecontent .subheader, #archivecontent p, #archivecontent blockquote, #archivecontent small, #archivecontent #archive .grid a .year, #archive .grid a #archivecontent .year {
+    color: white; }
+  #archivecontent a {
+    color: white; }
+    #archivecontent a:hover, #archivecontent a:active {
+      color: #d2bdd2; }
+  #archivecontent code, #archivecontent abbr, #archivecontent acronym {
+    color: #d9d9d9; }
+  #archivecontent .talks .row {
+    border-bottom: 1px dashed #c860c6;
+    margin-bottom: 0;
+    padding: 0.5em 0;
+    overflow: hidden;
+    -webkit-transition: background-color 300ms ease-out;
+    -moz-transition: background-color 300ms ease-out;
+    transition: background-color 300ms ease-out; }
+    #archivecontent .talks .row:last-child {
+      border-bottom: 0; }
+    #archivecontent .talks .row .speakerimage {
+      display: block;
+      margin: 0 auto;
+      max-width: 300px;
+      border-radius: 0; }
+    #archivecontent .talks .row .speakerprofile {
+      margin: 0 auto; }
+    #archivecontent .talks .row .summary {
+      -webkit-transform-origin: 50% 50%;
+      -moz-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      -o-transform-origin: 50% 50%;
+      transform-origin: 50% 50%; }
+    #archivecontent .talks .row .summary {
+      position: relative; }
+      #archivecontent .talks .row .summary p {
+        margin-bottom: 0; }
+      #archivecontent .talks .row .summary small, #archivecontent .talks .row .summary #archive .grid a .year, #archive .grid a #archivecontent .talks .row .summary .year {
+        line-height: 1rem;
+        display: inline-block; }
+      #archivecontent .talks .row .summary a {
+        white-space: nowrap; }
+    @media only screen and (min-width: 768px) {
+      #archivecontent .talks .row p {
+        margin-bottom: 0; }
+      #archivecontent .talks .row .time {
+        -webkit-transform-origin: 100% 50%;
+        -moz-transform-origin: 100% 50%;
+        -ms-transform-origin: 100% 50%;
+        -o-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        text-align: right; }
+        #archivecontent .talks .row .time p:after {
+          display: block;
+          content: "\00A7";
+          position: absolute;
+          top: 0;
+          right: -0.25em; }
+      #archivecontent .talks .row .summary {
+        -webkit-transform-origin: 0% 50%;
+        -moz-transform-origin: 0% 50%;
+        -ms-transform-origin: 0% 50%;
+        -o-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+        text-align: left; }
+        #archivecontent .talks .row .summary p {
+          padding-right: 3.15em; }
+        #archivecontent .talks .row .summary img {
+          position: absolute;
+          display: block;
+          margin: 0 auto;
+          max-width: 200px;
+          border-radius: 0; }
+        #archivecontent .talks .row .summary .speaker_description {
+          text-align: left; } }
+    #archivecontent .talks .row:hover {
+      background-color: #90328e; }
+
 #archive {
   color: #222222;
-  background: white url(../img/now.jpg);
-  background-repeat: round;
+  background: white url(../img/now-web-banner.jpg);
+  background-size: 2014px 1024px;
+  background-repeat: repeat;
   background: white; }
   #archive h1, #archive h2, #archive h3, #archive .grid a .day, #archive h4, #archive h5, #archive h6, #archive .grid a .month, #archive .subheader, #archive p, #archive blockquote, #archive small, #archive .grid a .year {
     color: #222222; }
@@ -3981,8 +4077,9 @@ button, .button {
 
 #footer {
   color: #a6a6a6;
-  background: #f2f2f2 url(../img/now.jpg);
-  background-repeat: round;
+  background: #f2f2f2 url(../img/now-web-banner.jpg);
+  background-size: 2014px 1024px;
+  background-repeat: repeat;
   background: #f2f2f2;
   border-radius: 0;
   margin-top: 0;
