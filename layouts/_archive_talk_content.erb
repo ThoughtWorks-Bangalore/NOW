@@ -1,0 +1,46 @@
+<section id="archivecontent" class="feature">
+  <div class="row" data-bottom="transform:translateY(-10em)" data--100-bottom="transform:translateY(0em)">
+    <h2>Speakers</h2>
+  </div>
+
+  <div class="talks">
+    <% @item[:archive] && @item[:archive].each_with_index do |archive, i| %>
+        <div class="row">
+          <h5><%= archive[:title] %></h5>
+          <% if archive[:speaker] %>
+              <p><small>
+                <% if archive[:profile] %>
+                    <a href="<%= archive[:profile] %>" rel="nofollow" target="_blank"><%= archive[:speaker] %></a>
+                <% else %>
+                    <%= archive[:speaker] %>
+                <% end %>
+              </small></p>
+          <% end %>
+            <% if archive[:image] %>
+
+                <img class="speakerimage" src="img/speaker/<%= archive[:image] %>"  alt="<%= archive[:speaker] %>">
+              <% end %>
+
+
+            <% if archive[:speaker_profile] %>
+                <p><%= archive[:speaker_profile] %> </p>
+            <% end %>
+            <% if archive[:description] %>
+                <br>
+                <p class="speaker_description"><small> <%= archive[:description] %></small></p>
+            <% end %>
+            <% if archive[:youtube_link] %>
+                <br>
+                <br>
+                <iframe align="center" src="<%= archive[:youtube_link]%>"
+                        width="560" height="315" frameborder="0" allowfullscreen></iframe>
+                <br>
+                <br>
+            <% end %>
+        </div>
+    <% end %>
+  </div>
+  <div>
+    <iframe src=<%= @item[:imageurl]%> width="700" height="500" frameborder="0"></iframe>
+  </div>
+</section>
