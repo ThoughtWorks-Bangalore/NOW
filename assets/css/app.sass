@@ -21,8 +21,9 @@
 
 =override-colors($main-fg, $main-bg, $alt-fg)
   color: $main-fg
-  background: $main-bg url(../img/now.jpg)
-  background-repeat: round
+  background: $main-bg url(../img/now-web-banner.jpg)
+  background-size: 2014px 1024px
+  background-repeat: repeat
 
   h1, h2, h3, h4, h5, h6, .subheader, p, blockquote, small
     color: $main-fg
@@ -331,13 +332,10 @@
         border-bottom: 0
 
       .speakerimage
+        display: block
         margin: 0 auto
-
-        .speakerimage
-          display: block
-          margin: 0 auto
-          max-width: 300px
-          border-radius: 0
+        max-width: 300px
+        border-radius: 0
 
       .speakerprofile
         margin: 0 auto
