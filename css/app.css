@@ -3860,6 +3860,10 @@ button, .button {
     #location img {
       border-radius: 0 0.5em 0.5em 0; } }
 
+#speaker-info{
+  background: #685154;
+}
+
 #about {
   color: white;
   background: #222222 url(../img/now-edition-4.jpg);
