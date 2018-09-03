@@ -3868,6 +3868,7 @@ button, .button {
 #speaker-info p{
   color: white;
   text-align: left;
+  padding-top: 5px;
 }
 #speaker-info h3{
   color: white;
