@@ -486,7 +486,7 @@ a {
 p {
   font-family: inherit;
   font-weight: 300;
-  font-size: 0.75em;
+  font-size: 1em;
   line-height: 1.25;
   margin-bottom: 0.5em;
   text-rendering: optimizeLegibility; }
@@ -3788,7 +3788,8 @@ button, .button {
     #agenda .timings .row .summary {
       position: relative; }
       #agenda .timings .row .summary p {
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        }
       #agenda .timings .row .summary small, #agenda .timings .row .summary #archive .grid a .year, #archive .grid a #agenda .timings .row .summary .year {
         line-height: 1rem;
         display: inline-block; }
@@ -3861,8 +3862,12 @@ button, .button {
       border-radius: 0 0.5em 0.5em 0; } }
 
 #speaker-info{
-  background: #dcc5c8;
+  background: #28bcce;
 }
+#speaker-info h2{
+  color: white;
+}
+
 
 #about {
   color: white;
@@ -4018,6 +4023,12 @@ button, .button {
     #archivecontent .talks .row:hover {
       background-color: #90328e; }
 
+#agenda-2 p{
+  color: #ffffff;
+  line-height: 1.5em;
+  text-align: left;
+}
+
 #archive {
   color: #222222;
   background: white url(../img/now-edition-4.jpg);
@@ -4102,3 +4113,4 @@ button, .button {
       line-height: 1em; }
       #footer .row p a {
         color: #a339a1; }
+
