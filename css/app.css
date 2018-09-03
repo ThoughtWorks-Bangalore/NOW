@@ -3863,8 +3863,13 @@ button, .button {
 
 #speaker-info{
   background: #28bcce;
+  color: #ffffff;
 }
-#speaker-info h2{
+#speaker-info p{
+  color: white;
+  text-align: left;
+}
+#speaker-info h3{
   color: white;
 }
 
@@ -4022,12 +4027,6 @@ button, .button {
           text-align: left; } }
     #archivecontent .talks .row:hover {
       background-color: #90328e; }
-
-#agenda-2 p{
-  color: #ffffff;
-  line-height: 1.5em;
-  text-align: left;
-}
 
 #archive {
   color: #222222;
