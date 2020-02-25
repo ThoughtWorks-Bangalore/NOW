@@ -752,6 +752,7 @@ blockquote p {
   margin-top: 0;
   margin-bottom: 0;
   max-width: 62.5em;
+  font-family: "Open Sans", sans-serif;
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -3759,7 +3760,7 @@ button, .button {
   background: #6a2569 url(../img/now-edition-5.png);
   background-size: 2014px 1024px;
   background-repeat: repeat;
-  background: #6a2569; }
+  background: #b11c54; }
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: white; }
   #agenda a {
@@ -3862,7 +3863,7 @@ button, .button {
       border-radius: 0 0.5em 0.5em 0; } }
 
 #speaker-info{
-  background: #28bcce;
+  background: #b5b935;
   color: #ffffff;
 }
 #speaker-info p{
@@ -3942,7 +3943,7 @@ button, .button {
 
 #participate {
   color: white;
-  background-color: #b5b935; }
+  background-color: #7d1f0f; }
   #participate .feature {
     padding: 0;
     position: relative; }
